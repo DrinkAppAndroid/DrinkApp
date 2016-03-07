@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrinkApp", "DrinkApp\DrinkApp.csproj", "{0F04B253-81DB-4FF6-AC61-F174E17BFC14}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Android_Web", "Android_Web\Android_Web.csproj", "{495314E0-160F-4E4A-BCCC-D288017233BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0F04B253-81DB-4FF6-AC61-F174E17BFC14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0F04B253-81DB-4FF6-AC61-F174E17BFC14}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0F04B253-81DB-4FF6-AC61-F174E17BFC14}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0F04B253-81DB-4FF6-AC61-F174E17BFC14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{495314E0-160F-4E4A-BCCC-D288017233BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{495314E0-160F-4E4A-BCCC-D288017233BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{495314E0-160F-4E4A-BCCC-D288017233BC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{495314E0-160F-4E4A-BCCC-D288017233BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{495314E0-160F-4E4A-BCCC-D288017233BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{495314E0-160F-4E4A-BCCC-D288017233BC}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
