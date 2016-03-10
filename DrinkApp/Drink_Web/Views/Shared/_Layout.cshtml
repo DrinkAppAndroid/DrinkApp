@@ -5,7 +5,7 @@
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>DrinkApp</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 
@@ -24,12 +24,13 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     
-                    <ul class="nav navbar-nav">
+                        <ul class="nav navbar-nav">
                         <li>@Html.ActionLink("DrinkApp", "Index", "Home")</li>
-                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                        <li>@Html.ActionLink("About", "About", "Home")</li>
-                        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                    </ul>
+                        <li>@Html.ActionLink("Reload", "Index", "Home")</li>
+                        <li>@Html.ActionLink("Mix n Match", "About", "Home")</li>
+                        <li>@Html.ActionLink("My Drinks", "Contact", "Home")</li>
+                        </ul>
+                    
                     @Html.Partial("_LoginPartial")
                 </div>
             </div>
